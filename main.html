@@ -5,31 +5,43 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<style>
-		table{
-			background:yellow;
-		}
-	</style>
+        table {
+            background-color: yellow;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        th,tr,td {
+            border: 1px solid black;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Student Details</h1>
-	<table border="1">
-		<tr>
-			<th>NAME</h1></th>
-			<th>Age</th>
-			<th>BRANCH</th>
-		</tr>
-		<tr>
-			<td>Shaw</td>
-			<td>20</td>
-			<td>CSE</td>
-		</tr>
-		<tr>
-			<td>Adil</td>
-			<td>21</td>
-			<td>ECE</td>
-		</tr>
-	</table>
+	<caption>Student Details</caption>
+	<table>
+		<thead>
+			<tr>
+				<th>NAME</h1></th>
+				<th>Age</th>
+				<th>BRANCH</th
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Shaw</td>
+				<td>20</td>
+				<td>CSE</td>
+			</tr>
+			<tr>
+				<td>Adil</td>
+				<td>21</td>
+				<td>ECE</td>
+			</tr>
+		</tbody>
 	</table>
     <script type="text/javascript" src="./script.js">
 </script>
